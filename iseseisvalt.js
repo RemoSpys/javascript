@@ -13,7 +13,9 @@ var x = 10 //(1) see on vanem viis kuidas luua muutujaid kuid mõnes kohas siian
 
 let nimi = "Remo"; //(2) Uuem variant, mida kasutatakse muutujate loomiseks, mis võivad muutuda.
 
-const püsivNumber = 20; //(3) Ka uuem variant, mida kasutatakse samuti muutujate loomiseks.
+const minuNumber = 10; //(3) Ka uuem variant, mida kasutatakse samuti muutujate loomiseks.
+// Siin tähendab const, et minuNumber on alati 10. Sa ei saa hiljem muuta minuNumber-i millekski muuks, nagu 15 või 20. See jääb alati 10-ks.
+////Const//// const on nagu lubadus, et see asi, millele sa nime andsid, jääb muutumatuks. See on kasulik, kui sa oled kindel, et mingit väärtust ei tohiks kogu programmi käigus muuta.
 
 
 
@@ -73,6 +75,7 @@ while (i < 5) {
 
 
 // 5. FUNKTSIOONID
+// Funktsioon on koodiplokk mis täidab kindlat ülesannet.
 // Mõtle nii, funktsioonile kui väiksele masinale, mis teeb midagi konkreetset, kui talle midagi öelda.
 // Nagu näiteks:
 
@@ -85,7 +88,8 @@ function tervita(nimi) {
 tervita('Remo'); // Väljund: Tere, Remo!
 
 // See on nagu sul on masin nimega tervita, mis võtab sisse nime (nimi) ja teeb midagi selle nimel 
-// – väljastab tervituse. Kui ütled talle tervita('John'), siis masin teeb oma töö ja ütleb "Tere, John!".
+// – väljastab tervituse. Kui üt
+led talle tervita('John'), siis masin teeb oma töö ja ütleb "Tere, John!".
 
 // On olemas ka kahte viisi funktsioone: Üks on tavaline ja teine on noolefunktsioon. 
 
@@ -113,3 +117,5 @@ let liidaNooled = (a, b) => a + b;
  * Isiklikult soovitan Arrow funktsioonid on lühemad ja sageli selgemad, kui tegemist on lihtsate funktsioonidega.
  */
 
+//Parameetrid
+//Parameetrid võimaldavad sul muuta funktsiooni käitumist, andes talle erinevaid väärtusi iga kord, kui sa teda välja kutsud.
