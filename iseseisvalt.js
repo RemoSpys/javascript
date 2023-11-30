@@ -14,6 +14,7 @@ var x = 10 //(1) see on vanem viis kuidas luua muutujaid kuid mõnes kohas siian
 let nimi = "Remo"; //(2) Uuem variant, mida kasutatakse muutujate loomiseks, mis võivad muutuda.
 
 const minuNumber = 10; //(3) Ka uuem variant, mida kasutatakse samuti muutujate loomiseks.
+// Consti väärtust ei saa muuta.
 // Siin tähendab const, et minuNumber on alati 10. Sa ei saa hiljem muuta minuNumber-i millekski muuks, nagu 15 või 20. See jääb alati 10-ks.
 ////Const//// const on nagu lubadus, et see asi, millele sa nime andsid, jääb muutumatuks. See on kasulik, kui sa oled kindel, et mingit väärtust ei tohiks kogu programmi käigus muuta.
 
